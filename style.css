@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.main-container{
+    width: 100%;
+}
+
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 27px;
+    align-items: center;
+}
+
+.header-button{
+    padding: 16px 26px;
+    background-color: #E8EFF2;
+    border-radius: 8px;
+    border: none;
+    color: #162542;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.first-section{
+    margin-left: 24px;
+}
+
+.heading-content{
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+}
+
+.h1-text{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #162542;
+    margin-top: 68px;
+}
+
+.p-text{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+    margin-top: 32px;
+}
+
+.button-release-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+    width: 95%;
+}
+
+.content-button{
+    padding: 11px 14px;
+    background-color: #F16718;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.release-text{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #7B8BAD;
+}
+
+.second-section{
+    margin-top: 64px;
+    margin-left: 24px;
+}
+
+.keyboard-image{
+    border-radius: 15px;
+}
+
+.keyboard-image, .phone-and-keyboard-image, .glass-and-keyboard-image{
+    width: 100%;
+}
+
+.second-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -15px;
+}
+
+.phone-and-keyboard-image{
+    width: 129px;
+    height: 193px;
+    border-radius: 15px;
+}
+
+.glass-and-keyboard-image{
+    width: 220px;
+    height: 193px;
+    border-radius: 15px;
+}
+
+.pattern-square, .second-pattern-square{
+    display: none;
+}
+
+.second-container-main{
+    margin-top: 24px;
+}
+
+.second-container-text{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    align-items: center;
+    text-align: center;
+    margin: 75px auto;
+}
+
+.second-container-h1text{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #162542;
+}
+
+.second-container-ptext{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #7B8BAD;
+}
+
+.all-icon-together{
+    text-align: center;
+    width: 90%;
+    margin-top: 64px;
+}
+
+.compatible-icon{
+    background-color: #F16718;
+    padding: 22px 20px;
+    border-radius: 16px;
+}
+
+.bluetooth-icon{
+    padding: 19px 23.6px 18.14px 23.72px;
+    background-color: #F16718;
+    border-radius: 16px;
+}
+
+.battery-icon{
+    padding: 23.33px 17.01px 21.67px 16px;
+    background-color: #F16718;
+    border-radius: 16px;
+}
+
+.light-icon{
+    padding: 16px 17px 17px 16px;
+    background-color: #F16718;
+    border-radius: 16px;
+}
+
+.third-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-title{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #162542;
+    margin-top: 48px;
+}
+
+.text-detail{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #7B8BAD;
+    margin-top: 24px;
+}
+
+.footer{
+    margin-top: 96px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.text-footer{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+}
+
+/*Hovers */
+
+.header-button:hover{
+    cursor: pointer;
+    background-color: #162542;
+    color: #FFFFFF;
+}
+
+.content-button:hover{
+    cursor: pointer;
+    background-color: #FF9B62;
+}
+
+
+@media (min-width: 768px){
+    .content{
+        overflow-x: hidden;
+        display: flex;
+        align-items: center;
+    }
+    .keyboard-image{
+        width: 478px;
+        height: 425px;
+    }
+    .second-container{
+        width: 90%;
+        margin-left: 39px;
+    }
+    .phone-and-keyboard-image{
+        width: 214px;
+        height: 320px;
+    }
+    .glass-and-keyboard-image{
+        width: 445px;
+        height: 320px;
+    }
+    .second-container-text{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 36px;
+    }
+    .second-container-h1text, .second-container-ptext{
+        text-align: left;
+    }
+    .third-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-left: 39px;
+    }
+    .all-icon-together, .text-title, .text-detail{
+        text-align: left;
+    }
+    .text-title{
+        width: 75%;
+    }
+}
+
+@media (min-width: 1440px){
+    body{
+        overflow-x: hidden;
+    }
+    .header-inner{
+        padding: 0px;
+        margin: 65px 165px;
+    }
+    .content{
+        display: flex;
+        margin: 83px 165px;
+    }
+    .first-section{
+        width: 82%;
+        margin-left: 0px;
+    }
+
+    .h1-text, .p-text{
+        width: 90%;
+    }
+    .keyboard-image{
+        width: 540px;
+        height: 480px;
+    }
+    .button-release-date{
+        max-width: 550px;
+        display: flex;
+        flex-direction: row;
+
+    }
+    .content-button{
+        padding: 16px 26px;
+    }
+    .release-text{
+        width: 40%;
+    }
+    .second-container-main{
+        display: flex;
+        align-items: center;
+        margin: 30px 165px;
+    }
+    .second-container{
+        margin: 0px;
+        margin-right: 125px;
+    }
+    .phone-and-keyboard-image{
+        width: 255px;
+        height: 480px;
+    }
+    .glass-and-keyboard-image{
+        width: 445px;
+        height: 480px;
+    }
+    .second-container-text{
+        display: flex;
+        flex-direction: column;
+        width: 28%;
+    }
+    .third-container{
+        display: flex;
+        flex-direction: row;
+        margin-left: 165px;
+        margin-top: 168px;
+    }
+    .all-icon-together{
+        margin-top: 0px;
+        width: 80%;
+    }
+    .text-detail{
+        width: 80%;
+    }
+
+    .footer{
+        margin-bottom: 39px;
+    }
+
+    .pattern-square, .second-pattern-square{
+        display: block;
+        position: absolute;
+    }
+    .pattern-square{
+        top: 275px;
+        right: -130px;
+    }
+    .second-pattern-square{
+        top: 1090px;
+        left: -120px;
+    }
+}
+
+@media (min-width: 1920px){
+    .logoo{
+        width: 60px;
+        height: 60px;
+    }
+    .header-button{
+        font-size: 25px;
+        padding: 20px;
+    }
+    .heading-content{
+        width: 60%;
+    }
+    .h1-text{
+        font-size: 70px;
+        line-height: 1;
+    }
+    .p-text{
+        font-size: 25px;
+        line-height: 42px;
+    }
+    .content-button{
+        width: 70%;
+        font-size: 25px;
+        padding: 20px;
+    }
+    .release-text{
+        font-size: 20px;
+        margin-left: 25px;
+    }
+    .second-container-h1text{
+        font-size: 40px;
+    }
+    .second-container-ptext, .text-detail{
+        font-size: 20px;
+        line-height: 33px;
+    }
+    .text-title{
+        font-size: 27px;
+    }
+    .text-footer{
+        font-size: 20px;
+    }
+}
